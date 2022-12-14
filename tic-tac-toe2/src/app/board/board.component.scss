@@ -1,0 +1,17 @@
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+}
+app-square {
+    border: 1px gray solid;
+    height: 200px;
+    width: 200px;
+}
+.button-row {
+    display: table-cell;
+    max-width: 600px;
+}
+.button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+}
